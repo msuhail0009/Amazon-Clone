@@ -1,0 +1,1455 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+:any-link{
+    text-decoration: none;
+    color: white;
+}
+
+.link-link{
+    color: #007185;
+    text-decoration: none;   
+}
+.link-linkk {
+    color: #dfd6d6;
+    text-decoration: none;
+}
+.link-linkkk {
+    color:white;
+    text-decoration: none;
+}
+.navbar {
+    height: 63px;
+    background-color: rgb(14, 12, 12);
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo {
+    height: 60px;
+    width: 100px;
+
+}
+.logo {
+    background-image:url("logoo.png");
+    background-size:cover;
+    height: 50px;
+    width: 100%;
+}
+.border {
+    
+    
+    
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border: 2px solid tranceparent;
+}
+.border:hover {
+    border:2px solid white;
+}
+.add-first {
+    color: #ebebebe8;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-sec {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon {
+     display: flex;
+     align-items: center;
+}
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    padding: 0 10px;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(248, 170, 26);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+/* 📱 Responsive Styling */
+@media screen and (max-width: 650px) {
+    .nav-search {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        padding: 10px;
+        gap: 8px;
+    }
+
+    .search-select,
+    .search-input,
+    .search-icon {
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    .search-input {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    .search-icon {
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+}
+
+span {
+    display: flex;
+     font-size:  0.6rem ;
+}
+ 
+.nav-sec {   
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i{
+    font-size: 30px;
+
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight:700 ;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.panel-options p {
+    display: inline;
+    margin-left:15px ; 
+}
+.panel-options {
+    width: 70%;
+    font-size: 0.98rem;
+
+}
+.panel-deals{
+    font-size:0.8rem ;
+    font-weight: 700;
+}
+.hero-section {
+    
+    background-image: url("fourth4image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+
+}
+
+.hero-msg {
+    background-color: white;
+    color: black;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    bottom: 15px;
+    width: 85%;
+    margin-bottom:25px;
+
+
+}
+.hero-msg a {
+    color: #007185;
+
+}
+
+
+
+
+
+
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6 ;
+    margin-top: 40px;
+    
+}
+
+.box {
+    
+    height: 400px;
+    width: 23%;
+    background-color:white;
+    padding: 10px 10px 1px;
+    margin-top: 10px; 
+    transition: .5s;  
+
+}  
+  .box-img {
+    height: 340px ;
+    background-size: cover;
+}
+
+.box:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+  .box-content{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+}
+  .box-content p{
+    color:#007185
+}
+  footer {
+    margin-top: 300px;
+}
+.foot-panel1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 490px;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: underline;
+}
+ul{
+    margin-top: 20px;
+    text-decoration: underline;
+}
+ul p {
+    font-size:large;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul a {
+    text-decoration: underline;
+    display: block;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 15px;
+    color: #dfd6d6;
+    text-decoration: underline;
+}
+.foot-panel3{
+    background-color:#233342;
+    border-top:0.01px solid #424950; ;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("Amazon-Symbol.jpg");
+    background-size: cover;
+    height: 60px;
+    width: 140px;
+}
+.foot-panel4 {
+    background-color:#233342;
+    color: white;
+    height: 70px;
+    font-size: 0.7rem;
+    
+    text-align: center;    
+}
+
+.pages {
+    font-size: 0.7rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.copyright {
+    font-size: 0.7rem;
+    padding-top:5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}  
+
+.boxx{
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    justify-content: space-evenly;
+    height:200px;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    
+}
+.boxx-boxx1{
+    background-size: cover;
+    transition: 2s;
+}
+
+.boxx1:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+
+
+
+
+.boxx1{
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    height: 210px;
+    width: 195px;
+    
+    
+   
+}
+
+.boxx2:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+
+.boxx2{
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    height: 219px;
+    width: 150px;
+   
+    
+}
+
+.boxx3:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+
+.boxx3{
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    height: 220px;
+    width: 210px;
+    
+}
+
+.boxx4:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.boxx4{
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    
+    height: 210px;
+    width: 130px;
+    
+}
+
+.boxx5:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.boxx5{
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    height: 234px;
+    width: 299px;
+    
+}
+
+.boxx6:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.boxx6{
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    height: 204px;
+    width: 202px;
+    
+}
+
+.boxxxx-xx {
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+    text-align: left;
+    
+}
+
+.boxxx{
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    justify-content: space-evenly;
+    height:330px;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    margin-top: 0px;
+}
+
+
+.boxxx-boxxx1{
+    background-size: cover;
+    transition: 2s;
+}
+
+.boxxx1:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+    
+
+.boxxx1{
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    height:260px;
+    width: 300px;
+   
+}
+.boxxx2:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.boxxx2{
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    height:300px;
+    width: 100px;
+    
+}
+.boxxx3:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.boxxx3{
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    height:290px;
+    width: 172px;
+    
+}
+.boxxx4:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.boxxx4{
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    height:298px;
+    width: 300px;
+    
+}
+.boxxx5:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.boxxx5{
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    height:250px;
+    width: 70px;
+    
+}
+.boxxxx-xxxx {
+    margin-top:30px;
+}
+
+
+.boxxxx {
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    justify-content: space-evenly;
+    height:300px;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.boxxxx-boxxxx1{
+    background-size: cover;
+    transition: 2s;
+}
+
+.boxxxx1:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+
+.boxxxx1{
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    justify-content: space-evenly;
+    height:300px;
+    width: 200px;
+   
+   
+}
+.boxxxx2:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.boxxxx2{
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    justify-content: space-evenly;
+    height:300px;
+    width: 200px;
+    
+}
+.boxxxx3:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.boxxxx3{
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    justify-content: space-evenly;
+    height:300px;
+    width: 200px;
+}
+.boxxxx4:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.boxxxx4{
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    justify-content: space-evenly;
+    height:300px;
+    width: 200px;
+    
+}
+.boxxxx5:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.boxxxx5{
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    justify-content: space-evenly;
+    height:300px;
+    width: 200px;  
+}
+
+
+.shop-sectionn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6 ;
+    
+}
+.bbox {
+    
+    height: 300px;
+    width: 23%;
+    background-color:white;
+    padding: 10px 10px 1px;
+    margin-top: 0.7%;    
+
+}  
+  
+  
+  .box-content1 p{
+    color:#007185
+  }
+
+.box-iimg{
+    background-size: cover;
+    transition:0.3s;
+}
+
+.box-iimg:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+  .box-iimg {
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    height:270px;
+    width: 275px;
+  }
+  
+  .box-imgg:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+
+.box-imgg {
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    height:270px;
+    width: 275px;
+}
+.box-imgg:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.box-imggg {
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    height:270px;
+    width: 275px;
+}
+.box-imggg:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.box-imgggg:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.box-imgggg {
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    height:270px;
+    width: 275px;
+}
+.mahol {
+     height: 10px;
+     width: 100%;
+     background-size: cover;
+    background-color:rgb(224, 231, 233);
+    margin-top: 10px;
+    
+}
+.mahol2 {
+    height: 20px;
+     width: 100%;
+     background-size: cover;
+    background-color:rgb(255, 255, 255)
+}
+
+.boxxxx00 {
+    display: flex;
+    flex-wrap: wrap;
+    background-size:cover;
+    justify-content: space-evenly;
+    height:310px;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    
+}
+.boxxxx-boxxxx11{
+    background-size: cover;
+    transition: 2s;
+}
+
+.boxxxx11:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+
+.boxxxx11 {
+    background-size: cover;
+    justify-content: space-evenly;
+    height:250px;
+    width: 180px;
+   
+
+}
+.boxxxx22:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+ 
+.boxxxx22 {
+    background-size: cover;
+    
+    justify-content: space-evenly;
+    height:245px;
+    width: 165px;
+    background-size: cover;
+    
+    justify-content: space-evenly;
+}
+.boxxxx33:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+
+.boxxxx33 {
+    background-size: cover;
+    
+    justify-content: space-evenly;
+    height:230px;
+    width: 210px;
+    
+    
+}
+.boxxxx44:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+
+.boxxxx44 {
+    background-size: cover;
+    
+    justify-content: space-evenly;
+    height:230px;
+    width: 170px;
+  
+    
+}
+.boxxxx55:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+
+.boxxxx55 {
+    background-size: cover;
+    
+    justify-content: space-evenly;
+    height:230px;
+    width: 210px;
+
+    
+}
+.boxxxx66:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+
+.boxxxx66 {
+    background-size: cover;
+    
+    justify-content: space-evenly;
+    height: 248px;
+    width: 200px;
+
+    
+}
+
+.nemay {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.box00 {
+    height: 180px;
+    width: 320px;
+    background-size: cover;    
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 5px;
+    
+}
+.box001{
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.box001:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.box001 {
+    margin-top: 3px;
+    height: 167.3px;
+    width: 156px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 98);
+    
+    
+
+}
+.box002{
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.box002:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.box002 {
+    margin-top: 3px;
+    height: 167.3px;
+    width: 156px;
+    background-size: cover;   
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 98);
+   
+}
+.box000 {
+    height: 180px;
+    width: 320px;
+    background-size: cover;    
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-left: 5px;
+    margin-top: -10px;
+    
+}
+.box0001{
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.box0001:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.box0001 {
+    margin-top: 1.5px;
+    height: 175px;
+    width: 156px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 98);
+    
+    
+
+}
+.box0002{
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.box0002:hover{
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.box0002 {
+    margin-top: 1.5px;
+    height: 175px;
+    width: 156px;
+    background-size: cover;   
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 98);
+    
+
+}
+
+
+.box300 {
+    height: 180px;
+    width: 320px;
+    background-size: cover;    
+    display: flex;
+    justify-content: space-evenly;
+    background-color:white;
+    margin-left: 340px;
+    margin-top: -350px;
+    
+}
+.box301{
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.box301:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.box301 {
+    margin-top: 3px;
+    height: 167.3px;
+    width: 156px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 98);
+    
+   
+
+}
+.box302{
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.box302:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.box302 {
+    margin-top: 3px;
+    height: 167.3px;
+    width: 156px;
+    background-size: cover;   
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 98);
+    
+   
+
+}
+.box400 {
+    height: 180px;
+    width: 320px;
+    background-size: cover;    
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-left: 340px;
+    margin-top: -10px;
+    
+}
+.box401{
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.box401:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.box401 {
+    margin-top: 1.5px;
+    height: 175px;
+    width: 156px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 98);
+    
+    
+
+}
+.box402{
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.box402:hover{
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.box402 {
+    margin-top: 1.5px;
+    height: 175px;
+    width: 156px;
+    background-size: cover;   
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 98);
+    
+
+}
+
+.box500 {
+    height: 180px;
+    width: 320px;
+    background-size: cover;    
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-left: 675px;
+    margin-top: -350px;
+    
+}
+.box501{
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.box501:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.box501 {
+    margin-left: 0px;
+    margin-top: 3px;
+    height: 167px;
+    width: 157px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 98);
+    
+
+}
+.box502{
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.box502:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.box502 {
+    margin-top: 3px;
+    height: 167px;
+    width: 155px;
+    background-size: cover;   
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 98);
+    
+    
+
+}
+
+
+.box600 {
+    height: 180px;
+    width: 320px;
+    background-size: cover;    
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-left: 675px;
+    margin-top: -10px;
+    margin-right: 50px;
+    
+}
+.box601{
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.box601:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.box601 {
+    margin-top: 1.5px;
+    height: 175px;
+    width: 157px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 98);
+   
+
+}
+.box602{
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.box602:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.box602 {
+    height: 175px;
+    width: 155px;
+    margin-top: 1.5px;
+    background-size: cover;   
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 98);
+    margin-top: 1.5px;
+   
+}
+
+
+.box700 {
+    height: 180px;
+    width: 335px;
+    background-size: cover;    
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-left: 1010px;
+    margin-top: -350px;
+    margin-right: 5px;
+    
+}
+.box701{
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.box701:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.box701 {
+   
+    margin-left: 0px;
+    margin-top: 3px;
+    height: 167px;
+    width: 163px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 98);
+    
+
+
+}
+.box702{
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.box702:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.box702 {
+    margin-top: 3px;
+    height: 167px;
+    width: 164px;
+    
+    background-size: cover;   
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 98);
+    
+
+}
+.box800 {
+    height: 180px;
+    width: 335px;
+    background-size: cover;    
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-left: 1010px;
+    margin-top: -10px;
+    margin-right: 5px;
+    
+}
+.box801{
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.box801:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.box801 {
+    margin-top: 1.5px;
+    height: 175px;
+    width: 164px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 98);   
+    
+
+}
+.box802{
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.box802:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+.box802 {
+    height: 175px;
+    width: 163px;
+    margin-top: 1.5px;
+    background-size: cover;   
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 98);
+    
+
+}
+
+.box100 {
+    height: 160px;
+    width: 290px;
+    background-size: cover;    
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(244, 246, 247);
+    margin-left: 10px;
+    margin-top: 30px;
+    text-align: left;
+    
+}
+.box101 {
+    margin-left: 5px;
+    height: 140px;
+    width: 140px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 98);
+    
+    margin-top: 10px;
+    text-align: left;
+
+}
+.box102 {
+    height: 140px;
+    width: 140px;
+    background-size: cover;   
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 98);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+
+}
+.box200 {
+    height: 160px;
+    width: 290px;
+    background-size: cover;    
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(244, 246, 247);
+    margin-left: 10px;
+    margin-top: -10px;
+    
+}
+.box201 {
+    margin-left: 5px;
+    height: 140px;
+    width: 140px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 98);
+    
+    margin-top: 10px;
+
+}
+.box202 {
+    height: 140px;
+    width: 140px;
+    background-size: cover;   
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 98);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.experiment{
+    background-size: cover;
+    transition: 2s;
+}
+
+.boxxxx11:hover {
+    transform: scale(1.04);
+    z-index: 0.7;
+}
+
+.experiment{
+    height: 300px;
+    width: 50%;
+    background-color: red;
+    display: flex;
+    display: block;
+    margin-left: 58%;
+    margin-top: -300px;
+}
+.experiment{
+    background-size: cover;
+    transition: 2s;
+}
+
+.my1:hover {
+    transform: scale(1.02);
+    z-index: 0.7;
+}
+.my1 {
+    display: flex;
+    display: block;
+    height: 300px;
+    width: 100%;
+
+ }
+
+ .flex {
+    display:flex;
+   
+
+
+}
+
+ .double {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-size: cover;
+    height: 300px;
+    width: 350px;
+    background-color: rgb(37, 30, 30);
+    margin-left: 5px;
+    margin-top: 10px;
+
+
+ }
+ .double1{
+    justify-content: space-evenly;
+    background-size: cover;
+    height: 300px;
+    width: 169px;
+    background-color: rgb(93, 95, 104);
+   
+ }
+ .double2{
+    justify-content: space-evenly;
+    background-size: cover;
+    height: 300px;
+    width: 169px;
+    background-color: rgb(138, 150, 150);
+    
+ }
+
+
+ .double3{
+    justify-content: space-evenly;
+    background-size: cover;
+    height: 300px;
+    width: 169px;
+    background-color: rgb(115, 136, 121);
+    
+ }
+ .double4{
+    justify-content: space-evenly;
+    background-size: cover;
+    height: 300px;
+    width: 169px;
+    background-color: rgb(91, 116, 122);
+    
+ }
+
+
+ .flexA {
+    display:flex;
+   
+
+
+}
+ .doubleA {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-size: cover;
+    height: 300px;
+    width: 350px;
+    background-color: rgb(37, 30, 30);
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 350px;
+ }
+ .double1A{
+    justify-content: space-evenly;
+    background-size: cover;
+    height: 300px;
+    width: 169px;
+    background-color: rgb(48, 5, 5);  
+ }
+ .double2A{
+    justify-content: space-evenly;
+    background-size: cover;
+    height: 300px;
+    width: 169px;
+    background-color: rgb(6, 41, 15);   
+ }
+
+.see {
+    display: flex;
+    margin-top: 10px;
+    margin-right: 200px;
+    
+}
+.see1 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 169px;
+    justify-content: space-evenly;
+    background-size: cover;   
+    background-color: rgb(5, 25, 48); 
+   
+    
+}
+
+.see2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 169px;
+    justify-content: space-evenly;
+    background-size: cover;   
+    background-color: rgb(48, 34, 5); 
+    
+    
+}
+
+
+
