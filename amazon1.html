@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amzazon!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <a href="/amazon">  <div class="logo"></div></a>
+            </div>
+            <div class="nav-address border">
+                <a href="/amazon"> <p class="add-first">Deliver to</p></a>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <a href="/amazon">  <p  class="add-sec">India</p>
+                </div></a>
+            </div>
+
+
+            <script>
+                const products = [
+                    "cricket kit",
+                    "cricket ball",
+                    "wrist watch",
+                    "smart watch",
+                    "t-shirt",
+                    "shoes",
+                    "mobile",
+                    "laptop",
+                    "headphones"
+                ];
+                
+                function searchProduct() {
+                    const input = document.getElementById("searchInput").value.toLowerCase();
+                    const resultsDiv = document.getElementById("results");
+                
+                    const matches = products.filter(product => product.includes(input));
+                
+                    if (matches.length > 0) {
+                        resultsDiv.innerHTML = "<h3>Results:</h3><ul>" + matches.map(p => `<li>${p}</li>`).join('') + "</ul>";
+                    } else {
+                        resultsDiv.innerHTML = "<p>No results found.</p>";
+                    }
+                }
+                </script>
+            
+            
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search amazon" class="search-input" id="searchInput">
+                <div class="search-icon" onclick="searchProduct()">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div><div id="results"></div>
+
+
+            <div class="nav-signin border">
+                <a href="/amazon"> <P><span>Hello, sign in</span></P></a>
+                <a href="/amazon"> <p class="nav-sec">Account & Lists</p></a>
+            </div>
+            <div class="nav-return border">
+                <a href="/amazon"><P><span>Returns</span></P></a>
+                <a href="/amazon"><p class="nav-sec">& Orders</p></a>
+        </div>
+        <div class="nav-cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <a href="/amazon">Cart</a>
+        </div>
+        
+        </div>
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-options">
+                <a href="https://www.amazon.in/deals?ref_=nav_cs_gb"> <p class="border">Today's Deals</p></a>
+                <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help"> <p class="border">Customer Service</p></a>
+                <a href="https://www.amazon.in/gp/bestsellers/?ref_=nav_cs_bestsellers"> <p class="border">Best Sellers</p></a>
+                <a href="https://www.amazon.in/b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3"> <p class="border">Sell</p></a>
+            </div>
+            <div class="panel-deals">
+                <a class="link-linkkk" href="/see more">Shop deals in Electronics</a>
+            
+    </header>
+    <div class="hero-section">
+        <p class="hero-msg">You are on amazon.com. You can also shop on Aamazon India for millions of products with fast local delivery. <a class="link-link" href="https://www.amazon.in/"> Click here to go to amazon.in</a> </p>
+    </div>
+
+    
+    <div class="nemay">
+
+
+    <div class="box00">
+        <a href="/amazon"> <div class="box001" style="background-image: url('top.jpg');"></div></a>
+        <a href="/amazon"> <div class="box002" style="background-image: url('top2.jpg');"></div>  </a>             
+    </div>
+
+    <div class="box000">
+        <a href="/amazon"> <div class="box0001" style="background-image: url('top3.jpg');"></div></a>
+            <a href="/amazon"> <div class="box0002" style="background-image: url('top4.jpg');"></div> </a>              
+    </div>
+
+    <div class="box300">
+        <a href="/amazon"> <div class="box301" style="background-image: url('a1.jpg');"></div></a>
+        <a href="/amazon"> <div class="box302" style="background-image: url('a2.jpg');"></div>  </a>             
+    </div>
+
+    <div class="box400">
+        <a href="/amazon"> <div class="box401" style="background-image: url('a3.jpg');"></div></a>
+            <a href="/amazon"> <div class="box402" style="background-image: url('a4.jpg');"></div> </a>              
+    </div>
+
+    <div class="box500">
+        <a href="/amazon"> <div class="box501" style="background-image: url('y1.jpg');"></div></a>
+            <a href="/amazon"> <div class="box502" style="background-image: url('y2.jpg');"></div> </a>              
+    </div>
+
+    <div class="box600">
+        <a href="/amazon"> <div class="box601" style="background-image: url('y3.jpg');"></div></a>
+        <a href="/amazon"> <div class="box602" style="background-image: url('y4.jpg');"></div>  </a>             
+    </div>
+
+    <div class="box700">
+        <a href="/amazon"> <div class="box701" style="background-image: url('z1.jpg');"></div></a>
+        <a href="/amazon"> <div class="box702" style="background-image: url('z2.jpg');"></div> </a>              
+    </div>
+
+    <div class="box800">
+        <a href="/amazon"> <div class="box801" style="background-image: url('z3.jpg');"></div></a>
+            <a href="/amazon"> <div class="box802" style="background-image: url('z4.jpg');"></div> </a>          
+    </div>
+
+
+    
+</div>
+
+
+    
+
+
+
+
+
+
+
+    <div class="shop-section">
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Mwag & Ride</h2>
+                <a href="https://www.amazon.com/aifitbre-Breathable-Exercise-Fingerless-Protection/dp/B0DDX9M53W/ref=sxin_16_pa_sp_search_thematic_sspa?content-id=amzn1.sym.30d32f42-a653-448d-8922-189323f347c1%3Aamzn1.sym.30d32f42-a653-448d-8922-189323f347c1&crid=1SGZWWH5GECLP&cv_ct_cx=sports%2Bglubs&keywords=sports%2Bglubs&pd_rd_i=B0DDX9M53W&pd_rd_r=77e1c5e5-6a4d-4cea-a581-9731f6318655&pd_rd_w=1gsDV&pd_rd_wg=SEUBz&pf_rd_p=30d32f42-a653-448d-8922-189323f347c1&pf_rd_r=JYSQ5DRAD7F4X6NFN1A1&qid=1737408152&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=suports%2Bglubs%2Caps%2C740&sr=1-2-d1d87218-35d9-414f-9801-db7973c52143-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1&psc=1"> <div class="box-img" style="background-image: url('suports2.jpg');"></div></a>
+            
+            <a class="link-link" href="https://www.amazon.com/aifitbre-Breathable-Exercise-Fingerless-Protection/dp/B0DDX9M53W/ref=sxin_16_pa_sp_search_thematic_sspa?content-id=amzn1.sym.30d32f42-a653-448d-8922-189323f347c1%3Aamzn1.sym.30d32f42-a653-448d-8922-189323f347c1&crid=1SGZWWH5GECLP&cv_ct_cx=sports%2Bglubs&keywords=sports%2Bglubs&pd_rd_i=B0DDX9M53W&pd_rd_r=77e1c5e5-6a4d-4cea-a581-9731f6318655&pd_rd_w=1gsDV&pd_rd_wg=SEUBz&pf_rd_p=30d32f42-a653-448d-8922-189323f347c1&pf_rd_r=JYSQ5DRAD7F4X6NFN1A1&qid=1737408152&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=suports%2Bglubs%2Caps%2C740&sr=1-2-d1d87218-35d9-414f-9801-db7973c52143-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1&psc=1">See more</a></div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+            <h2>Beey Fruit's</h2>
+            <a href="https://www.amazon.com/CEIPET-Containers-Container-Platters-Organizer/dp/B0DGGDCJ6V/ref=sr_1_5_sspa?dib=eyJ2IjoiMSJ9.80zL6ZtHYGAZ437p7241O8kglhTfjqsDkxVo5bpzN-g97nuao1XSNoSQFqzMJhCT88g333BxTMfXhTtTS98u1LlcvmaMBTxzN2Bh1UC8sD_Bug_CcS0IGnxbylrtbMy2cP9diQGlLOg80E1PVxxZ1Uo2znsgtS9cR-b-WCzMfD-__QUDbA3J8NKmogSzf9xhhQZkGmCRDMn4lrKrV05saXZUcPGbY7UeYk3QdjiEO4I1Xb3ileixQHoh9rRGmR-acRtADMAg0QBylOQ2OZBfxebIXnO0X0_r7WaJ91oiVfA.78j_RvjK7h1hDZwjgDdNvdjGaextJRPYOzEKpH42_jg&dib_tag=se&keywords=fruit+storage&qid=1737406501&sr=8-5-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> <div class="box-img" style="background-image: url('juices2.jpg');"></div></a>
+            <a class="link-link" href="https://www.amazon.com/CEIPET-Containers-Container-Platters-Organizer/dp/B0DGGDCJ6V/ref=sr_1_5_sspa?dib=eyJ2IjoiMSJ9.80zL6ZtHYGAZ437p7241O8kglhTfjqsDkxVo5bpzN-g97nuao1XSNoSQFqzMJhCT88g333BxTMfXhTtTS98u1LlcvmaMBTxzN2Bh1UC8sD_Bug_CcS0IGnxbylrtbMy2cP9diQGlLOg80E1PVxxZ1Uo2znsgtS9cR-b-WCzMfD-__QUDbA3J8NKmogSzf9xhhQZkGmCRDMn4lrKrV05saXZUcPGbY7UeYk3QdjiEO4I1Xb3ileixQHoh9rRGmR-acRtADMAg0QBylOQ2OZBfxebIXnO0X0_r7WaJ91oiVfA.78j_RvjK7h1hDZwjgDdNvdjGaextJRPYOzEKpH42_jg&dib_tag=se&keywords=fruit+storage&qid=1737406501&sr=8-5-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">See more</a></div>
+    </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>Apple W&G-Watch's</h2>
+                <a href="https://www.amazon.in/Scott-FINCHER-Oversized-Tshirt-Angeles/dp/B0DJ5RM3QC/ref=sr_1_7?crid=5CWBRKHL8EHP&dib=eyJ2IjoiMSJ9.7B9wvjzFFr61ytOjQU2rH-ollCHJkCwQfS3y-yuYv9vS3Ze03Pn_cG7j_zP9xrkxzdBwdcJHFWuu7MPvN6AlrRPVldJu-cYGotn0pzNU-n5bjrPuOwTqtm_277tpDDlqvoQ9JfinYoIEMq2LjaUsofE3QyUCSASk-O3sHLeV_p_wDMB3C9cduFcheiIOCXxz_iy9lr51m0gjNEoXQZDtZZh9qaC_8SpnP7gJHZEJuSPZEs-_KwFFOGU7eOY7uFoPqnjoQlvJrecrM5raN-xZwR_PTTzBtZpeZDUVeQm8WUp-W6Eu-3PGXEEwpFuv6EOMvp0y1HqaRtgYU1JcTFfhUrwXCS4NPOf8VgaaCQt4_UPWo-la-RGqmneBBhx6yJTInsUlbdy58vLRAt3C5R7iPPkhQpIeUmEzQHlkmNkjrVfZdSvHImUCEY2UY5rKkvar.dp9LJnG1uIHaqAaRT0vbj_tTVkE-AX7agSUWXLERToM&dib_tag=se&keywords=los+angeles+tshirt+men&qid=1737405706&sprefix=los+angeles+tshirt+men%2Caps%2C504&sr=8-7"> <div class="box-img" style="background-image: url('clothy5.webp');"></div></a>
+                <a class="link-link" href="https://www.amazon.in/Scott-FINCHER-Oversized-Tshirt-Angeles/dp/B0DJ5RM3QC/ref=sr_1_7?crid=5CWBRKHL8EHP&dib=eyJ2IjoiMSJ9.7B9wvjzFFr61ytOjQU2rH-ollCHJkCwQfS3y-yuYv9vS3Ze03Pn_cG7j_zP9xrkxzdBwdcJHFWuu7MPvN6AlrRPVldJu-cYGotn0pzNU-n5bjrPuOwTqtm_277tpDDlqvoQ9JfinYoIEMq2LjaUsofE3QyUCSASk-O3sHLeV_p_wDMB3C9cduFcheiIOCXxz_iy9lr51m0gjNEoXQZDtZZh9qaC_8SpnP7gJHZEJuSPZEs-_KwFFOGU7eOY7uFoPqnjoQlvJrecrM5raN-xZwR_PTTzBtZpeZDUVeQm8WUp-W6Eu-3PGXEEwpFuv6EOMvp0y1HqaRtgYU1JcTFfhUrwXCS4NPOf8VgaaCQt4_UPWo-la-RGqmneBBhx6yJTInsUlbdy58vLRAt3C5R7iPPkhQpIeUmEzQHlkmNkjrVfZdSvHImUCEY2UY5rKkvar.dp9LJnG1uIHaqAaRT0vbj_tTVkE-AX7agSUWXLERToM&dib_tag=se&keywords=los+angeles+tshirt+men&qid=1737405706&sprefix=los+angeles+tshirt+men%2Caps%2C504&sr=8-7">See more</a></div>
+        
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>Glaxy Ultra S24</h2>
+                <a href="https://www.amazon.com/s?k=samsung+galaxy+s23+ultra&ref=nb_sb_noss"> <div class="box-img" style="background-image: url('s24.jpg');"></div></a>
+                <a class="link-link" href="https://www.amazon.com/s?k=samsung+galaxy+s23+ultra&ref=nb_sb_noss">See more</a></div></div>
+                <div class="box1 box">
+                    <div class="box-content">
+                        <h2>Apple W&G-Watch's</h2>
+                        <a href="https://www.amazon.in/Fire-Boltt-Stainless-Bluetooth-Smartwatch-Monitoring/dp/B0BY2PWDFQ/ref=sr_1_1_sspa?crid=349N510PCMFIT&dib=eyJ2IjoiMSJ9.SSrXM0wjoqRdVuEOIk3WuFlufBLMuDgeCaknrVDirK7EkhmZw0hYky3aH5P_fpdbLtPlmYWMgVpR0DWpvuhLTTHSpMFn2RsayZMOYBWuuYH5uWF3A9Mwc6A1au4iXexFYxY2lmPQpUDxHiP9k2bSTyFyReELP19vucQE9MuVtTilxuZrXQApArAmQ40tluALItxycChVXcm4cmWp-qwu9A3OatldQBBiJs9zVj28M9M.JZ_P7g5Maso5-d24IJ-ZnxjV7b8XMgrtAQDiNa2lzP4&dib_tag=se&keywords=smart%2Bwatch%2Bfor%2Bgirls%2Bwith%2Bround%2Bglass&qid=1737406226&sprefix=smart%2Bwatch%2Bfor%2Bgirls%2Bwith%2Bround%2Bglass%2Caps%2C890&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1">  <div class="box-img" style="background-image: url('watch3.jpg');"></div></a>
+                   
+                    <a class="link-link" href="https://www.amazon.in/Fire-Boltt-Stainless-Bluetooth-Smartwatch-Monitoring/dp/B0BY2PWDFQ/ref=sr_1_1_sspa?crid=349N510PCMFIT&dib=eyJ2IjoiMSJ9.SSrXM0wjoqRdVuEOIk3WuFlufBLMuDgeCaknrVDirK7EkhmZw0hYky3aH5P_fpdbLtPlmYWMgVpR0DWpvuhLTTHSpMFn2RsayZMOYBWuuYH5uWF3A9Mwc6A1au4iXexFYxY2lmPQpUDxHiP9k2bSTyFyReELP19vucQE9MuVtTilxuZrXQApArAmQ40tluALItxycChVXcm4cmWp-qwu9A3OatldQBBiJs9zVj28M9M.JZ_P7g5Maso5-d24IJ-ZnxjV7b8XMgrtAQDiNa2lzP4&dib_tag=se&keywords=smart%2Bwatch%2Bfor%2Bgirls%2Bwith%2Bround%2Bglass&qid=1737406226&sprefix=smart%2Bwatch%2Bfor%2Bgirls%2Bwith%2Bround%2Bglass%2Caps%2C890&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1">See more</a></div>
+                </div>
+                <div class="box2 box">
+                    <div class="box-content">
+                    <h2>Only Alive</h2>
+                    <a href="https://www.amazon.com/s?k=apple+charger&crid=2JW4JJIZNHI7Y&sprefix=apple+ch%2Caps%2C1909&ref=nb_sb_ss_ts-doa-p_1_8">  <div class="box-img" style="background-image: url('kichen appliance5.jpg');"></div></a>
+                    <a class="link-link" href="https://www.amazon.com/s?k=apple+charger&crid=2JW4JJIZNHI7Y&sprefix=apple+ch%2Caps%2C1909&ref=nb_sb_ss_ts-doa-p_1_8">See more</a></div>
+            </div>
+                <div class="box3 box">
+                    <div class="box-content">
+                        <h2>Lay Out's Upto 5$</h2>
+                        <a href="https://www.amazon.in/LINLA-Doormat-Absorbs-Washable-Non-Slip/dp/B08PY6PSXT/ref=sr_1_35?crid=1Z632W1KRBYLX&dib=eyJ2IjoiMSJ9.4fA5FkbQ5-lVsfCVUqQUrkS7D0kx4hywhbD9vUV9wMeCKSMcLQOE1EhhHgGW5SwOJbpVeLcbuSYnirK2mYUg0_hs425OmEmy5B6-WQyxawsVurleKG3xyKpoEslclNJPYs0vSPH-WKyw-PzSPxRBfnS1MyRH56fj8M8zTTzF_yXE2j2n2dgP_hKkOAESfHJG8_Wkvu5FOk-ty0ZOLLrm_ECy082Lw-fYEq-kqL-crmSPE84SW2iedMJoZz8aS6yn_IL7QUl_m-8XAcd_LrWvd1VyrvMenukKpgEbhqrTLjnzhBmbdZM2AfSgcTSm23kpH3eLDMN8N0c539QsudGIEaII_D2acrGDByitYCmAT8tXnGbA-rixqHRaBh7WRcJgms-2S9bxwSZ-rK_pDBpWzUbV69Y5iqFt-P3mqorGjk-pqbuu5BebllJy70rxho4d.CTcq2B1ouW9tFTtjkSzCBlEuEtclHU3ufsf1ACrmduY&dib_tag=se&keywords=carpet+for+door&qid=1737405976&sprefix=carpet+for+door%2Caps%2C1586&sr=8-35">  <div class="box-img" style="background-image: url('gold2.jpg');"></div></a>
+                        <a class="link-link" href="https://www.amazon.in/LINLA-Doormat-Absorbs-Washable-Non-Slip/dp/B08PY6PSXT/ref=sr_1_35?crid=1Z632W1KRBYLX&dib=eyJ2IjoiMSJ9.4fA5FkbQ5-lVsfCVUqQUrkS7D0kx4hywhbD9vUV9wMeCKSMcLQOE1EhhHgGW5SwOJbpVeLcbuSYnirK2mYUg0_hs425OmEmy5B6-WQyxawsVurleKG3xyKpoEslclNJPYs0vSPH-WKyw-PzSPxRBfnS1MyRH56fj8M8zTTzF_yXE2j2n2dgP_hKkOAESfHJG8_Wkvu5FOk-ty0ZOLLrm_ECy082Lw-fYEq-kqL-crmSPE84SW2iedMJoZz8aS6yn_IL7QUl_m-8XAcd_LrWvd1VyrvMenukKpgEbhqrTLjnzhBmbdZM2AfSgcTSm23kpH3eLDMN8N0c539QsudGIEaII_D2acrGDByitYCmAT8tXnGbA-rixqHRaBh7WRcJgms-2S9bxwSZ-rK_pDBpWzUbV69Y5iqFt-P3mqorGjk-pqbuu5BebllJy70rxho4d.CTcq2B1ouW9tFTtjkSzCBlEuEtclHU3ufsf1ACrmduY&dib_tag=se&keywords=carpet+for+door&qid=1737405976&sprefix=carpet+for+door%2Caps%2C1586&sr=8-35">See more</a></div>
+                
+                </div>
+                <div class="box4 box">
+                    <div class="box-content">
+                        <h2>Apple Cover's</h2>
+                        <a href="https://www.amazon.in/Apple-iPhone-15-Plus-128/dp/B0CHX3D519/ref=pd_rhf_gw_s_pd_sbs_rvi_d_sccl_1_2/259-6623935-4276110?pd_rd_w=mP6RG&content-id=amzn1.sym.ed04a9b6-f1e8-467f-8e81-e050db1b5151&pf_rd_p=ed04a9b6-f1e8-467f-8e81-e050db1b5151&pf_rd_r=17EKDJ4A55GNHMJR8B40&pd_rd_wg=tYm5v&pd_rd_r=261d7537-eb7f-4f2f-8192-c48a43bba2fb&pd_rd_i=B0CHX3D519&psc=1">  <div class="box-img" style="background-image: url('iphone2.jpg');"></div></a>
+                        <a class="link-link" href="https://www.amazon.in/Apple-iPhone-15-Plus-128/dp/B0CHX3D519/ref=pd_rhf_gw_s_pd_sbs_rvi_d_sccl_1_2/259-6623935-4276110?pd_rd_w=mP6RG&content-id=amzn1.sym.ed04a9b6-f1e8-467f-8e81-e050db1b5151&pf_rd_p=ed04a9b6-f1e8-467f-8e81-e050db1b5151&pf_rd_r=17EKDJ4A55GNHMJR8B40&pd_rd_wg=tYm5v&pd_rd_r=261d7537-eb7f-4f2f-8192-c48a43bba2fb&pd_rd_i=B0CHX3D519&psc=1">See more</a></div>
+        </div>
+
+        
+
+        <div class="boxxxx-xx">
+
+            <div class="boxxx-m"><h2>Kichen Device's</h2>
+            </div>
+        </div>
+        
+            <div class="boxxxx00">
+                <a href="https://www.amazon.in/Morphy-Richards-OFR-09-2000-Watt/dp/B01M5F614J/ref=sr_1_15?crid=275EFJEU5L6TT&dib=eyJ2IjoiMSJ9.LKzY_svc5_FDrY3DNZsTasmvx6NI33pa9Gzhtzb4uKhUqsWEKQSVMglH2Wvd-cKM3yRGL6s2-tITQBRtrnFdCJSkJ8L4WzWqR6VE_kYNEMY9QZxIQ7oAC5z6DhdaQozmHznDFj0AI9pMOEbUKO0tYGUgB67eCFSZhUqjW2p5BN-WQffo7sbKrPIVYU17Wz25Aww08ia5rlL24bB232dB6a1FXbn_17gzlRhkh4pAags.4JWXD3BGyGxz0_7iMPgAYgYdyey4H1OUYjn4pXwLDEc&dib_tag=se&keywords=heaters+for+home&qid=1737549072&sprefix=heaters%2Caps%2C342&sr=8-15"> <div class="boxxxx11" style="background-image:url('filter1.jpg') ;"></div></a>
+        
+                    <a href="https://www.amazon.in/Native-Purifier-RO-Copper-Alkaline/dp/B0D79G62J3/ref=sxin_15_pa_sp_search_thematic_sspa?content-id=amzn1.sym.cd33fa60-47cd-49f3-80b8-24b1f0cbef97%3Aamzn1.sym.cd33fa60-47cd-49f3-80b8-24b1f0cbef97&crid=PQTQXSPE2SKV&cv_ct_cx=water+purifier+filter+for+home&keywords=water+purifier+filter+for+home&pd_rd_i=B0D79G62J3&pd_rd_r=d29ebc13-c34c-42bd-9f7d-ab389e54ab04&pd_rd_w=kuf5p&pd_rd_wg=BxfoP&pf_rd_p=cd33fa60-47cd-49f3-80b8-24b1f0cbef97&pf_rd_r=VPD99CNA1YS83Y910VA6&qid=1737549000&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=filter%2Caps%2C407&sr=1-1-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&psc=1">  <div class="boxxxx22" style="background-image:url('filter2.jpg') ;"></div></a>
+                
+                        <a href="https://www.amazon.in/Havells-Fab-Alkaline-Technology-Purifier/dp/B08DNVZN36/ref=sr_1_6?crid=16I50H0QKFZP2&dib=eyJ2IjoiMSJ9.-ngwRjRB56HsB9YeObwWg4z0FqaE_j6n0r_hc3izcD1Xqc-fFh0F6eLv-4cQlwQibzg6any3J7FSMmH-xv9Y47nIAECGCthIKOhrq_5s14hcKjU6mIH1fvUsh32BwflD_KhZSKCSmz_zH4wQ4NSQjgAMMZVzlesNVsbK4ds_JzhvgCBRedjIrXVdtbfV3TJ8w05cOvxmhreqvcNr6W6pFb96dHgd6IrIuMBuqI8MuV8.bqt_GLfm5fWYBQH7eDuS693rwqQQQ1t3_ifalQwZn0g&dib_tag=se&keywords=havells+circle+filter&nsdOptOutParam=true&qid=1737548516&sprefix=havells+circle+filter%2Caps%2C311&sr=8-6"> <div class="boxxxx33" style="background-image:url('filter3.jpg') ;"></div></a>
+               
+                            <a href="https://www.amazon.in/Pigeon-Healthifry-Circulation-Technology-Non-Stick/dp/B0B8XNPQPN/ref=sr_1_3?crid=1GEAD3057HG1B&dib=eyJ2IjoiMSJ9.6Du18kPk1P71UuljC8ADKbql9lG4M-s1LcuwqEy9ude71NvBUn2zyeo1Xg1A4EsIgG2V1iK3JfTndB5gCdtcnHmcpPhnHSY3htvzfqjk-alLr6qMxnur-WwWFxoLbcSgAEMHCrweRXI_4xTEuH9SODR85Ri6MUNPIrEs3MxKXA2QDjULK8BcxonJQBjRqTEPrCi7uDviiZ4NkHnoAoVkLELtrrOUr5Z0plHqQt9IA_A.TNQ5kz_W3ig5b3ThyXh8xT9_cpFNqU46XTpoOwRpLew&dib_tag=se&keywords=digital+air+fryer&qid=1737548689&sprefix=digital+air+fryer%2Caps%2C320&sr=8-3"> <div class="boxxxx44" style="background-image:url('filter4.jpg') ;"></div></a>
+                
+                                <a href="https://www.amazon.in/Westinghouse-60-200%C2%B0C-Non-stick-Functions-WKAFGOT01WH/dp/B0D986HGGT/ref=sr_1_16?crid=PC007DSOZHNW&dib=eyJ2IjoiMSJ9.h9iARVXrC8vgzan-auCmg0sMSxYH43trosqzqGDkfaUV_DxFJ0nbQQRBf5oxuktZZPvBAkUj4nWxTk0sULwuCibhQFBJrEsjuaWQZyxsK_85Wsqgh3wC3eAXR-4V-GJsv-Nv5HyUQUnuaCWmOtFpCoUmtm_6svMWL_s1gUVUELcbmt29FmyDmZttO-wQSziJ_Ks7_Y-4_tzuhnLWB4CGd9XFyZDJFD499CEcyzIvqjw.8xhKa6WGlQW9Tt2yFe1twu6iPzEbDcXLp5EQrmWYgVA&dib_tag=se&keywords=digital+white+air+fryer&qid=1737548866&sprefix=digital+white+air+fryer%2Caps%2C340&sr=8-16"> <div class="boxxxx55" style="background-image:url('filter5.jpg') ;"></div></a>
+    
+                                    <a href="https://www.amazon.in/Amazon-Brand-Solimo-2000-Watt-certified/dp/B07VX71FZP/ref=sr_1_1_sspa?crid=2Z2MJXYHCFX56&dib=eyJ2IjoiMSJ9.jQOiJDFr-e8Qok99vFc2bZ2-sXJ3wJaDLoiYHB1o5J2jI8u7AC6kOzNGjsAHySt6mC9shkMZDjx37QGXsT9OWROZZLVuGgAlOmhHQ5Y2PkmTLIxpadf9WI5PFzMRZUkag4ys7kZ2zKIs20EClKz9RPK8D439USWpGPM17gS1KV0JrjZK3EIcwFCUJcM3bhmGz8JveiSH2DOVeaIA-ci4XQYss6AMTChX7WfXB8Em5jY.bDi6wv1ZYQ5sAsl6apPA-6Er9iKSFP3Qu0yStd5tOTI&dib_tag=se&keywords=soumo+room+heater&nsdOptOutParam=true&qid=1737548933&sprefix=soumo%2Caps%2C347&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> <div class="boxxxx66" style="background-image:url('filter6.jpg') ;"></div></a>
+                       
+            </div>
+    
+
+
+
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Milton Bottel's</h2>
+                <a href="https://www.amazon.in/s?k=juicer+for+home&crid=3F52WJRIU73N&sprefix=juicer%2Caps%2C344&ref=nb_sb_ss_ts-doa-p_1_6">   <div class="box-img" style="background-image: url('juice1.jpg');"></div></a>
+            
+            <a class="link-link" href="https://www.amazon.in/s?k=juicer+for+home&crid=3F52WJRIU73N&sprefix=juicer%2Caps%2C344&ref=nb_sb_ss_ts-doa-p_1_6">See more</a></div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+            <h2>Alien</h2>
+            <a href="https://www.amazon.in/RABBY-Polyester-Co-ord-Track-White_Black_Xxl/dp/B0CVS8HJND/ref=sr_1_19?crid=3PDUHGV4ZQ1XY&dib=eyJ2IjoiMSJ9.b4KNtVJToRnHSOjOFwuWOBoKYehK_ijNMXo4EhyL-n45op-BNLAYCUY5p7MWacbX_cOCJ_oUkDedZVaUz7PVQ9X6vOo0dCjpHx-YfXyNYGruS43RdaKaelJE3KnxA6U6eMq5fJmqHQBveKmT52baIbaeCLkaY-yHFAeDl77u-NifVEH_r6D5fR77BVvjRT3xH8490QwZ6YCbaycUdvBK1aUgLr4l7CZp4nUeguX17v36Q3Yc3yqst7hfR1q4d-J-SVJ8ydncVyjCQdtokTvUxjEuFsoLLNMSViz22yhsIk_AQA0kNEO_Og9xEQFZOi_xflBW03MHijd-4aoIMvBdaZC0KAA2yxNv7FSNdEtxbyn-wkPP6ihSICqL90gqxOkmmWkNKiFHxAqSFBLLj3ZoXv0LKmbNWxj1zCkEHgEfEdLYZs0iAFvt911cTaTGfwY_.mwGDPUgMHjC6QznTsOJXIlruUzcFawpbukGO1NuHYCs&dib_tag=se&keywords=lower%2Btshirt%2Bset%2Bfor%2Bmen&qid=1737406736&sprefix=lower%2Bts%2Caps%2C374&sr=8-19&th=1&psc=1">  <div class="box-img" style="background-image: url('clothy1.webp');"></div></a>
+            <a class="link-link" href="https://www.amazon.in/RABBY-Polyester-Co-ord-Track-White_Black_Xxl/dp/B0CVS8HJND/ref=sr_1_19?crid=3PDUHGV4ZQ1XY&dib=eyJ2IjoiMSJ9.b4KNtVJToRnHSOjOFwuWOBoKYehK_ijNMXo4EhyL-n45op-BNLAYCUY5p7MWacbX_cOCJ_oUkDedZVaUz7PVQ9X6vOo0dCjpHx-YfXyNYGruS43RdaKaelJE3KnxA6U6eMq5fJmqHQBveKmT52baIbaeCLkaY-yHFAeDl77u-NifVEH_r6D5fR77BVvjRT3xH8490QwZ6YCbaycUdvBK1aUgLr4l7CZp4nUeguX17v36Q3Yc3yqst7hfR1q4d-J-SVJ8ydncVyjCQdtokTvUxjEuFsoLLNMSViz22yhsIk_AQA0kNEO_Og9xEQFZOi_xflBW03MHijd-4aoIMvBdaZC0KAA2yxNv7FSNdEtxbyn-wkPP6ihSICqL90gqxOkmmWkNKiFHxAqSFBLLj3ZoXv0LKmbNWxj1zCkEHgEfEdLYZs0iAFvt911cTaTGfwY_.mwGDPUgMHjC6QznTsOJXIlruUzcFawpbukGO1NuHYCs&dib_tag=se&keywords=lower%2Btshirt%2Bset%2Bfor%2Bmen&qid=1737406736&sprefix=lower%2Bts%2Caps%2C374&sr=8-19&th=1&psc=1">See more</a></div>
+    </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>Fastlane</h2>
+                <a href="https://www.amazon.in/Meta-Quest-3S-128GB-All-One/dp/B0DDK1WM9K/?_encoding=UTF8&pd_rd_w=ADJBs&content-id=amzn1.sym.41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_p=41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_r=881EHPKLC0IDLSL7OX1D&pd_rd_wg=S9Bdc&pd_rd_r=d4b64f3f-e49b-4f6e-a797-6cc0168682e1&ref_=pd_hp_d_btf_crs_zg_bs_468642&th=1">  <div class="box-img" style="background-image: url('batman vid game.jpg');"></div></a>
+                <a class="link-link" href="https://www.amazon.in/Meta-Quest-3S-128GB-All-One/dp/B0DDK1WM9K/?_encoding=UTF8&pd_rd_w=ADJBs&content-id=amzn1.sym.41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_p=41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_r=881EHPKLC0IDLSL7OX1D&pd_rd_wg=S9Bdc&pd_rd_r=d4b64f3f-e49b-4f6e-a797-6cc0168682e1&ref_=pd_hp_d_btf_crs_zg_bs_468642&th=1">See more</a></div>
+        
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>Napoleon Hill</h2>
+                <a href="https://www.amazon.in/Apple-iPhone-13-128GB-Green/dp/B09V4B6K53/ref=pd_rhf_gw_s_pd_sbs_rvi_d_sccl_1_4/259-6623935-4276110?pd_rd_w=mP6RG&content-id=amzn1.sym.ed04a9b6-f1e8-467f-8e81-e050db1b5151&pf_rd_p=ed04a9b6-f1e8-467f-8e81-e050db1b5151&pf_rd_r=17EKDJ4A55GNHMJR8B40&pd_rd_wg=tYm5v&pd_rd_r=261d7537-eb7f-4f2f-8192-c48a43bba2fb&pd_rd_i=B09V4B6K53&psc=1">  <div class="box-img" style="background-image: url('green iphone.jpg');"></div></a>
+                <a class="link-link" href="https://www.amazon.in/Apple-iPhone-13-128GB-Green/dp/B09V4B6K53/ref=pd_rhf_gw_s_pd_sbs_rvi_d_sccl_1_4/259-6623935-4276110?pd_rd_w=mP6RG&content-id=amzn1.sym.ed04a9b6-f1e8-467f-8e81-e050db1b5151&pf_rd_p=ed04a9b6-f1e8-467f-8e81-e050db1b5151&pf_rd_r=17EKDJ4A55GNHMJR8B40&pd_rd_wg=tYm5v&pd_rd_r=261d7537-eb7f-4f2f-8192-c48a43bba2fb&pd_rd_i=B09V4B6K53&psc=1">See more</a></div></div>
+        
+
+
+                <div class="flex">
+
+                    <div class="double">
+                        <div class="double1" style="background-image:url('');"><h3>hii</h3></div>
+                        <div class="double2" style="background-image:url('');"></div>
+                    </div>
+        
+                    
+                    <div class="double">
+                        <div class="double3" style="background-image:url('');"></div>
+                        <div class="double4" style="background-image:url('');"></div>
+                    </div>
+        
+        </div>
+    
+               
+                    
+    
+                
+    
+       
+    
+                <div class="experiment" >
+                   <a href="https://www.amazon.com/s?k=refrigerator+%2Bwashing+machine&crid=19CKNKAOUWPK7&sprefix=refrigerator%2Bwashing+machine%2Caps%2C1025&ref=nb_sb_noss_2">  <div class="my1" style="background-image: url('big2.jpg');"></div></a>
+                    
+                </div>
+
+
+
+
+
+
+
+
+                <div class="box1 box">
+                    <div class="box-content">
+                        <h2>Dune Continuing</h2>
+                        <a href="https://www.amazon.in/Veirdo%C2%AE-Oversized-Typographic-Printed-OS_100_VDORGNL_NVY_M/dp/B0C4DLH229/ref=sr_1_5?crid=384S7EH11PG5L&dib=eyJ2IjoiMSJ9.n7221lrnYD7rEt5dyWAPHls8H1gecgALtWLi0I5a57wEiIyiOH2tmmpcIk2J14UgKqvUP2wBlGrEjjk0Rx_aKatNBQZg1X7ZnzkpWW77-pcPfMykU6SpIg5iRDZ_atFiyWAbj-ASdEMLK7WnArNcqv1HjErsvKRGNIjyQc8vzTU38TTepbjWE0SohMOF_RRzB5L9Y3kcNNdBSyS4uhBO7k4SdHRSZs0u36KDs-VI1a9rjzCIXEtXxVGVQz8e7mGdisXhdC5nYbu1pisg5_UkOEqcIS1OdhtAx5JyJvpDbfk.ZvPMQrjPejdEtOID4hBSwBf7F8gHwxj8--mtfrNrnrc&dib_tag=se&keywords=veirdo%2Boriginal%2Btshirts&nsdOptOutParam=true&qid=1737407058&sprefix=veirdo%2Borign%2Caps%2C4816&sr=8-5&th=1&psc=1"><div class="box-img" style="background-image: url('clothy3.webp');"></div></a>                
+                         <a class="link-link" href="https://www.amazon.in/Veirdo%C2%AE-Oversized-Typographic-Printed-OS_100_VDORGNL_NVY_M/dp/B0C4DLH229/ref=sr_1_5?crid=384S7EH11PG5L&dib=eyJ2IjoiMSJ9.n7221lrnYD7rEt5dyWAPHls8H1gecgALtWLi0I5a57wEiIyiOH2tmmpcIk2J14UgKqvUP2wBlGrEjjk0Rx_aKatNBQZg1X7ZnzkpWW77-pcPfMykU6SpIg5iRDZ_atFiyWAbj-ASdEMLK7WnArNcqv1HjErsvKRGNIjyQc8vzTU38TTepbjWE0SohMOF_RRzB5L9Y3kcNNdBSyS4uhBO7k4SdHRSZs0u36KDs-VI1a9rjzCIXEtXxVGVQz8e7mGdisXhdC5nYbu1pisg5_UkOEqcIS1OdhtAx5JyJvpDbfk.ZvPMQrjPejdEtOID4hBSwBf7F8gHwxj8--mtfrNrnrc&dib_tag=se&keywords=veirdo%2Boriginal%2Btshirts&nsdOptOutParam=true&qid=1737407058&sprefix=veirdo%2Borign%2Caps%2C4816&sr=8-5&th=1&psc=1">See more</a></div>
+                </div>
+                <div class="box2 box">
+                    <div class="box-content">
+                    <h2>cook</h2>
+                    <a href="https://www.amazon.in/Lymio-Jeans-Pants-Denim-Numeric/dp/B0D765XG3S/ref=sr_1_28?dib=eyJ2IjoiMSJ9.oj_9k4bRIRcXySjbn05IKNwvBfW2fwK-YiqJK9CKT0Hd5JvdlIigV_2KUFV4mb3oXOoDlfZqKsdo-EC-JswQxf8Ilf8SgajapQYIqNeFS4Ijf4Hq_UbJ8Bda5Ty4RgX6IdkHRA2XTrjAPBoGS5xfNEO-pfBjSorgWwZAnKxjnPe6C0SCLn-p3wLrwbO378Ym0o-RPg4F4JWvXfahejG1MM1ajWCZGfQ0PVnmBSH2yRZrR_vpwxHpIvhJJYpo9KdtfjzwgbUNDbha12O1TrmwUzENpnopC_qDtS9hhJSAmrqqpfp9nHiZD4PednRaXPEQ-tOTFJAtJMDuhpNjrcCNdxgo6uDIVoKZGjfBBBc5cWMopu82k77HFZWrIn0kfBx56M22nT_IfoNNdAboD5umIgY8C5RBmj0EW5Dw1R8JgMxoxV_DKbOtevOT_Gepec36.jLtRcCQrJnmwVDr32h4b-VU8hgwxlL7mxGo9vktAQYg&dib_tag=se&keywords=armani+jeans&nsdOptOutParam=true&qid=1737407221&sr=8-28">  <div class="box-img" style="background-image: url('clothy4.webp');"></div></a>
+                    <a class="link-link" href="https://www.amazon.in/Lymio-Jeans-Pants-Denim-Numeric/dp/B0D765XG3S/ref=sr_1_28?dib=eyJ2IjoiMSJ9.oj_9k4bRIRcXySjbn05IKNwvBfW2fwK-YiqJK9CKT0Hd5JvdlIigV_2KUFV4mb3oXOoDlfZqKsdo-EC-JswQxf8Ilf8SgajapQYIqNeFS4Ijf4Hq_UbJ8Bda5Ty4RgX6IdkHRA2XTrjAPBoGS5xfNEO-pfBjSorgWwZAnKxjnPe6C0SCLn-p3wLrwbO378Ym0o-RPg4F4JWvXfahejG1MM1ajWCZGfQ0PVnmBSH2yRZrR_vpwxHpIvhJJYpo9KdtfjzwgbUNDbha12O1TrmwUzENpnopC_qDtS9hhJSAmrqqpfp9nHiZD4PednRaXPEQ-tOTFJAtJMDuhpNjrcCNdxgo6uDIVoKZGjfBBBc5cWMopu82k77HFZWrIn0kfBx56M22nT_IfoNNdAboD5umIgY8C5RBmj0EW5Dw1R8JgMxoxV_DKbOtevOT_Gepec36.jLtRcCQrJnmwVDr32h4b-VU8hgwxlL7mxGo9vktAQYg&dib_tag=se&keywords=armani+jeans&nsdOptOutParam=true&qid=1737407221&sr=8-28">See more</a></div>
+            </div>
+                <div class="box3 box">
+                    <div class="box-content">
+                        <h2>Electronics</h2>
+                        <a href="https://www.amazon.in/Norelco-Philips-Groomer-Trimmer-Grooming/dp/B0CLX1HQ17/ref=sr_1_34?crid=2EG4TXSO5QC4Y&dib=eyJ2IjoiMSJ9.xTH2TL3YKp8jQd4PDUrNsqvgFbUUHB7jzCmcRTaBRPppzXi0z-QpPOwnIflEqwCSaMcqBOAIMPjZTgCSFLkisy3yYPEZ5vd5lLR3TffG6jpXYz7P9bLNYxDb0oUcUHiyUI97KD9kGjH4L9Iz-8HWxrbQZDYr9GMOY4DnfDeeFpMjxmkWo4SNcAl8A9Zr_lWzpNZZ80qHZoCVNtyHQISsJuWU1lsiAwtRwUS0Znlr9_iUkzfNXWGHMmh7J-aoG-PoqfiXYkiD6TkTypNdHPpha_tp7iYqHk9L1sydJWoR8FadDqL35Q6pLcj-kh_hAjztLMWeqgNe6AcGLO15iHlmZwolI6_PUXJi12FhSoekUp0_s5Kpuc-8EknEtiBUF22ev8AH6Qdmu4N4XR6yvwBo5P-0vQzmh4SXBL_JbhLNN9zMdRYO39-IiFNiRGuQSELw.JI9B9HtzHw_MFeAZnvsCypRKt8nP9eb0NSyhZfDT3V0&dib_tag=se&keywords=philips+trimmer+for+man&nsdOptOutParam=true&qid=1737407395&sprefix=philips+tr%2Caps%2C433&sr=8-34"> <div class="box-img" style="background-image: url('philips trimer.jpg');"></div></a>
+                        <a class="link-link" href="https://www.amazon.in/Norelco-Philips-Groomer-Trimmer-Grooming/dp/B0CLX1HQ17/ref=sr_1_34?crid=2EG4TXSO5QC4Y&dib=eyJ2IjoiMSJ9.xTH2TL3YKp8jQd4PDUrNsqvgFbUUHB7jzCmcRTaBRPppzXi0z-QpPOwnIflEqwCSaMcqBOAIMPjZTgCSFLkisy3yYPEZ5vd5lLR3TffG6jpXYz7P9bLNYxDb0oUcUHiyUI97KD9kGjH4L9Iz-8HWxrbQZDYr9GMOY4DnfDeeFpMjxmkWo4SNcAl8A9Zr_lWzpNZZ80qHZoCVNtyHQISsJuWU1lsiAwtRwUS0Znlr9_iUkzfNXWGHMmh7J-aoG-PoqfiXYkiD6TkTypNdHPpha_tp7iYqHk9L1sydJWoR8FadDqL35Q6pLcj-kh_hAjztLMWeqgNe6AcGLO15iHlmZwolI6_PUXJi12FhSoekUp0_s5Kpuc-8EknEtiBUF22ev8AH6Qdmu4N4XR6yvwBo5P-0vQzmh4SXBL_JbhLNN9zMdRYO39-IiFNiRGuQSELw.JI9B9HtzHw_MFeAZnvsCypRKt8nP9eb0NSyhZfDT3V0&dib_tag=se&keywords=philips+trimmer+for+man&nsdOptOutParam=true&qid=1737407395&sprefix=philips+tr%2Caps%2C433&sr=8-34">See more</a></div>
+                
+                </div>
+                <div class="box4 box">
+                    <div class="box-content">
+                        <h2>smart watch's</h2>
+                        <a href="https://www.amazon.com/DECOSIS-Laptop-Desk-Bed-Adjustable/dp/B0D8NYZVZW/ref=sr_1_19?crid=2LQ3F6PKBTI1W&dib=eyJ2IjoiMSJ9.2dE-WSIRviko5cKJRuzoUnSMqjvA5vz3KXL0tb4bFvldBT-333McotJfghYDQ-z2azOlbVPSPta3K_0vDoLbWKn7cGGVcaQTmA5eHegaaVxytuN8A4TTk5G7KTwqapVDPtCK4FRlfjmgIlEk4IJZyJiKX_7KOiznzxhX6vPs6WNt8s6ZESVrHIfMLJOORf6OantOQjaBMKNO0QXVlYhHgnwWni59rroSgf0KKlJfNuodEqRqstFKVEtoDlTfK-OBOkHw_kKBTts3934D489fDzk9xvSq6TABjH4AmSl2_3x63DyaERBfoLaSDwXh3mH6MIp6l14sxl8jMUhT3H9h_QrFHRuw-gDIJlp3cEA3rdW901VkLPVmU-Gld71VGI4m6KrJ_pArGuCg49mUh_2Av_YUurKFtUggl9HvfzS5ZjM4HaQoSKO8NvE6SSNf3plF.YTALopctr9VC8CW-RjSZ9fPm-PWs_edMSwlucoUt2qU&dib_tag=se&keywords=laptop%2Btable&qid=1737407477&sprefix=laptop%2Bta%2Caps%2C766&sr=8-19&th=1"> <div class="box-img" style="background-image: url('portable laptop table.webp');"></div></a>
+                        <a class="link-link" href="https://www.amazon.com/DECOSIS-Laptop-Desk-Bed-Adjustable/dp/B0D8NYZVZW/ref=sr_1_19?crid=2LQ3F6PKBTI1W&dib=eyJ2IjoiMSJ9.2dE-WSIRviko5cKJRuzoUnSMqjvA5vz3KXL0tb4bFvldBT-333McotJfghYDQ-z2azOlbVPSPta3K_0vDoLbWKn7cGGVcaQTmA5eHegaaVxytuN8A4TTk5G7KTwqapVDPtCK4FRlfjmgIlEk4IJZyJiKX_7KOiznzxhX6vPs6WNt8s6ZESVrHIfMLJOORf6OantOQjaBMKNO0QXVlYhHgnwWni59rroSgf0KKlJfNuodEqRqstFKVEtoDlTfK-OBOkHw_kKBTts3934D489fDzk9xvSq6TABjH4AmSl2_3x63DyaERBfoLaSDwXh3mH6MIp6l14sxl8jMUhT3H9h_QrFHRuw-gDIJlp3cEA3rdW901VkLPVmU-Gld71VGI4m6KrJ_pArGuCg49mUh_2Av_YUurKFtUggl9HvfzS5ZjM4HaQoSKO8NvE6SSNf3plF.YTALopctr9VC8CW-RjSZ9fPm-PWs_edMSwlucoUt2qU&dib_tag=se&keywords=laptop%2Btable&qid=1737407477&sprefix=laptop%2Bta%2Caps%2C766&sr=8-19&th=1">See more</a></div></div>
+                            
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <div class="mahol">
+        
+    </div>
+
+    <div class="boxxxx-xx">
+
+        <div class="boxxx-m"><h2>Kichen Device's</h2>
+        </div>
+    </div>
+    
+        <div class="boxxxx00">
+            <a href="/amazon"><div class="boxxxx11" style="background-image:url('filter1.jpg') ;"></div></a>
+    
+            <a href="/amazon"><div class="boxxxx22" style="background-image:url('filter2.jpg') ;"></div></a>
+            
+            <a href="/amazon"><div class="boxxxx33" style="background-image:url('filter3.jpg') ;"></div></a>
+           
+            <a href="/amazon"><div class="boxxxx44" style="background-image:url('filter4.jpg') ;"></div></a>
+            
+            <a href="/amazon"><div class="boxxxx55" style="background-image:url('filter5.jpg') ;"></div></a>
+
+            <a href="/amazon"><div class="boxxxx66" style="background-image:url('filter6.jpg') ;"></div></a>
+            
+           
+    
+        </div><a class="link-link" href="https://www.amazon.com/s?k=kitchen+appliances&crid=21R6P9ZYK9DDI&sprefix=kitchen+tech+gadgets%2Caps%2C1370&ref=nb_sb_ss_saint-refocus-candidate_3_20">Explore more</a>
+
+       
+    <div class="mahol">
+        
+    </div>
+
+    <div class="boxxxx-xx">
+        
+        <div class="boxxx-m"><h2>Best Electronic Device's</h2>
+        </div>
+    </div>
+
+    <div class="boxx">       
+        <a href="https://www.amazon.in/MOCA-A2696-Pencil-Holder-Trifold/dp/B0BS6H4W27/ref=sr_1_4?crid=OGMMP4198VNC&dib=eyJ2IjoiMSJ9.x68TMG_SmHNLVgjqVEAykDY5fQR_MtHTwttCnrUS811txQ3kPhh6cnmIhTHgNO2Va50d99vBkyJ9MY-9_5ktrv7syVosrMMMRuidKyCiKHsAJdLs18f4Zfi8U3p6P-zyoI_3s7s6-sQI3BQFW2VHE3I1dXDmG_IC0gZIJYUaWC3msYa3BiM_KyA9Wpf2hDGg3RXSH2_IsnGOhWDDtZwEAOiwSSQHo7sCXqiPwyI2NTI.fVpW0-pKd0Gr44hw56jy6JZMqUHR04-lCJhy2zbm1TY&dib_tag=se&keywords=I+PAD+SIMPLE+PINK+COVER&qid=1737546776&sprefix=i+pad+simple+pink+cover%2Caps%2C370&sr=8-4"><div class="boxx1" style="background-image:url('i pad.jpg');"></div></a>
+
+        <a href="https://www.amazon.in/TAH4209WT-00-Lightweight-Neodynamic-Smartphone/dp/B0CZRR9FWS/ref=sr_1_16?crid=1M2NXDMI0EWSL&dib=eyJ2IjoiMSJ9.WdEPsxmUmnkLcQOhYkL9capfIeCpsXfjINf-PQ3T7PEZLc0Uub5WLdtSpCYVbQxMaT2DGjXjRLA99GW0GDrebrJ2sjrUn0Vn4ilIBq5WWvh-IVL-tExG218BAP9q-Jiovne2CQNhO7oUFYgvA-FBZgEh5-9deDrarEROfEpuF4nBNmWd3092bmdpp9jW-Kw-RMCSinawHExhDEUyBryTsRDoHAPrvXWEAkC7FexLWQE.h8VwMsmmzqPkQx6StM9d2quYyTiP5Gl2yZVrx0iH1U8&dib_tag=se&keywords=PHILIPS+HEADPHONES&nsdOptOutParam=true&qid=1737546884&sprefix=philips+headphone%2Caps%2C338&sr=8-16"><div class="boxx2" style="background-image:url('philips headphones.jpg');"></div></a>
+        
+        <a href="https://www.amazon.in/Silicone-SRS-XB13-Protective-Bluetooth-Accessories/dp/B09K4YVQS1/ref=sr_1_6?crid=33AV3TZCLZU1R&dib=eyJ2IjoiMSJ9.nReKY1lTu2hHcz6FspCrzgkfppBfwNqFkMyQ9MWUQThS1q9ed1CrMw4hoNunfnkb2jYmwRPxA3_Vw6BEWAZ_VI-Yndv_HOZR6rrQS4I9BiIQxvXC-gt1spiC7ijjLXLSKnMH6okuC7vt225CaxwHOtYleQ4B8OtmOZW9k8MKI0mBXFzeTPUgKed5PBNx4jmGdQnbhUtCNZtlMt3tCrOy_JpR5ustW0NVzXBfitYat1c.oPIOjB_3hbyWbvibZlHcLU78WsTowDySBk2GqtuBvxg&dib_tag=se&keywords=SONY+BLACK+SPEAKER&nsdOptOutParam=true&qid=1737547029&sprefix=sony+black+speaker%2Caps%2C353&sr=8-6"><div class="boxx3" style="background-image:url('sony  speaker.jpg') ;"></div></a>
+       
+        <a href="https://www.amazon.in/Stylus-Universal-Sensitivity-Attachment-Compatible/dp/B0DT4W9S8N/ref=sr_1_5?crid=3K4AVRXSC5NKT&dib=eyJ2IjoiMSJ9.5AZM1Tt4b9TZ4nWgNfsc58M31Vij5NaPpWBl1J39RztYr9lHWVXbiWNPmFX6fh51yegFiIn0LUeldoDlrVJdwnktSPtIAxfOD6d-G3VP7YIszqSdJSPnG7tEjKlHaVtP-fw0-cQy6Gj7Wu_t07FZDGJziF8UfplDNHkPKq9wsIUwdeG2ZAcnuf7x0AfQmQW6s7vRTDBg1ZFj5ZfecD_lSi8qB7BA8fstMtILSwSkH7A.sI0Sef52yUU0Z4adsd5mNmG1yVV6mHqRHMh-KCfwuxg&dib_tag=se&keywords=tab+charger+pencil&qid=1737547137&sprefix=tab+charg+pencil%2Caps%2C326&sr=8-5"><div class="boxx4" style="background-image:url('screen pen.jpg') ;"></div></a>
+        
+        <a href="https://www.amazon.in/JBL-Wireless-Bluetooth-Earbuds-Playtime/dp/B0DHL93XCN/ref=sr_1_1_sspa?crid=26UT96KU2IIFD&dib=eyJ2IjoiMSJ9.o7vRnKUpIaLZvx88YZfCEDe9CrM6d87nKetDVnaVLeO91W1yVS-WVE6B6QtMpfqLVyi0yC6ZiDkwnPL6a8nk5KV-NacI2KOG4zbtdObzVeCCRYbn7FJpLwlV5Lw-FU7zjQwXGEF5NAIrye9v1-wzi2tztm6aYEA0mRMY_sDqehy_LrJekBdYYsQFUkOQw_bKI2WV-JLmCPFKwKZBBEp2RVjtBRq84nT3oKk7bjs3iWc.rletqHVdQl1sWvFuIFBiOygnoEsvf-Juq67c0-GpT0s&dib_tag=se&keywords=jbl%2Bbuds&nsdOptOutParam=true&qid=1737547224&sprefix=JBL%2BB%2Caps%2C332&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"><div class="boxx5" style="background-image:url('jbl.jpg') ;"></div></a>
+        
+        <a href="https://www.amazon.in/TARKAN-Degree-Rotating-Adjustable-Foldable/dp/B0DHZQK3V1/ref=sr_1_9?crid=2ZVXSMVJSZG6D&dib=eyJ2IjoiMSJ9.0aLds70KJyVI7FnpSfvdH1vlsh2r2-9O5Hq_TfWSnKUPG21Zyz1ekDJpIV41vuww44-bulW_bi7npTu7_gllP7fMJFppKPqRb-b_k9vFJrynnp10ydekCHUFnSbsrPl4ZP1MZaDE_eIEXgQJSUMxBEuqZSIAOBULEh_rJRwsrtA7n8yUvFItR0jjPDZXeSQWuVRW3Du70lMUh3Sbd89eLkmCiih0GUcZfeJwGJoOpp8.Rbg7eA6TmHk3DK4LGfblCqoHiZ72WtAbhP4YyynkVgw&dib_tag=se&keywords=tab%2Bstand&qid=1737547331&sprefix=tab%2B%2Caps%2C318&sr=8-9&th=1"><div class="boxx6" style="background-image:url('pad hand.jpg') ;"></div></a>
+    </div><br><br><a class="link-link" href="https://www.amazon.com/s?k=electronics&crid=1G26U0TUQ9UR3&sprefix=elec%2Caps%2C550&ref=nb_sb_ss_ts-doa-p_3_4">See Incoming Divice's</a>
+    <div class="mahol2">
+        
+    </div>
+    <div class="mahol">
+        
+    </div>
+
+
+    <div class="boxxxx-xx">
+        <div class="boxxx-m"><h2>Sell upto 5$ On Mekup Nay'r</h2>
+        </div>
+    </div>
+
+    <div class="boxxx">
+        <a href="https://www.amazon.in/SHANY-Cosmetics-2012-Harmony-Makeup/dp/B005UKZAJG/ref=sr_1_5?dib=eyJ2IjoiMSJ9.GJKCUreaE_sXbI4aYuQ4sHhz7z_8Qarpj19KyDmBCuDh7vShMbenW7e-d_ZKMnWkSA9FgSnS6KSRTKvhfml772lwB52Hzszwg-XL59nZ7qKv3q3iW--wjzEfGaUQ79CWBGTi231xbU3TsIOLsK3HVpysTVm8jMixOLy-UijgG51UJjvNV7rpzOy_MuK4gyx1FN9fZGyA0AVfXfPdOztnfoKbPCQhcHWAFTE6r04MpD4f1wMrO9g0K7uBwtUd_MV3jfPhV63_zSbNa_E-NODtbHuIYh5lSXBk6wjF3K3YGjWUUGv6BlIT-v0jy_hDgOY42cGHi9lyZnPjsUgWIfDcQ0SrVvkTcEvS3MLYYZrTTesEkxysj1DN0DlqnZ83To4-mx7_P-3HEi6nVPr-D1KhmCEr7qEXfl79XbZwexZJ1_1QGuwJISbyMFB4f-tYEtYu.YybLLm1PqrKkRWGyONu4Bob_VJC5aiGnJSX4MnR_tig&dib_tag=se&keywords=shany+makeup&nsdOptOutParam=true&qid=1737547506&sr=8-5"><div class="boxxx1" style="background-image:url('m5.jpg');"></div></a>
+
+        <a href="https://www.amazon.in/Maybelline-Sensational-Liquid-Lipstick-Nuance/dp/B099FNN755/ref=sr_1_1_sspa?crid=3M86A7KV9Q4GH&dib=eyJ2IjoiMSJ9.E9M6AYDx7Uz1Ncz8PpIKNPoo0MdW6J-Uip0O_NEKLNyqWzpYvgZfYDxWTKEi6TsbR7UpPdH8M-4-YhiEw9GexfMOEq3mi3pvcBkUQIqQN6NEnqbKI8Lwt5g-gtwGU_PUSmN-lcRGIKZeLZmAuGIdxCBFk_U31hxHTRCB6j0LjG22pINL3ZdXZMFkU6CflFto0wAqDz8aSk4XsVQWZxLAocviJulq8xXA7EuS4J3sZ5UW4fn9mqLRnmakEX-8kIn-q5Q9UiU5sBct3CKKz2PuRSE0A_q_d2WW-CJpC-okzhg.LQy9XlTL_kLiUI2NHA4HD2yTmNWABgoocpOfduPtJCA&dib_tag=se&keywords=sensational+liquid+matte+lipstick&qid=1737547583&sprefix=sensationa%2Caps%2C311&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><div class="boxxx2" style="background-image:url('m1.jpg');"></div></a>
+        
+        <a href="https://www.amazon.in/Maybelline-Sensational-Creamy-Lipstick-Concealer/dp/B08K3KKXD5/ref=sr_1_31?crid=1EVJ8SZSXY8GL&dib=eyJ2IjoiMSJ9.Mzwj0gmxa3g9fyy-RjUEwQW8ajPwl0Kt8bb6islWDAiODta-18Ij9KNhGDDuWUSnjyAS7zLY9cy3KdLq1pfbyuR7PagdZ7QGLY3B8b9ggsb5-V94xTRwIrskRuPomd_rLoQ1wIUwpJr-vZbBPLlK-SOk9cwgYjjsdO-G9TIIc9BbcU--kztAW2Q56CPxRWMYc0c0M641hxT9C5cLXR1qr4m8PXxi00S9P8aAS2vCMGFaROj0WWmxABLp9D72VOIPHvh-OTkkyhgfTi1w_OBB953PHkwiUElLiIsrnZCuEF2BQy_GTwAOCjIhpT2cdVvI-gmSww5EHSxTGTTN1Kj8Bsk_5DJgF4fMoxaWViqMv1oGepGeMJlm2AxwavPsvIE9Eqqa1Zor912wE8Dag-iXZ2RhGv0hQE0mkiSgtxPUz8e0OVX9VreFYcOD2as33dTT.TehnsRUQ9r6ekKiKsmrchSCro_pxrzF4rOBVTF6eVes&dib_tag=se&keywords=fit+me+lipstick+matte&qid=1737547750&sprefix=fit+me+lipstick%2Caps%2C530&sr=8-31"><div class="boxxx3" style="background-image:url('m2.jpg') ;"></div></a>
+       
+        <a href="https://www.amazon.in/Lakme-Primer-Powder-Foundation-Compact/dp/B0744RQRG8/ref=sr_1_13?crid=1ODLYDF03XIU9&dib=eyJ2IjoiMSJ9.6pH4xBVjQZfpXiYjYypo4bsPbyO2DD4ir1bHdt6kHmlUDsjo5wlzh-mB5yvlc8Ig7jndFpIhRZ4ax-Ryxhx_57jPCRRHxzmBUlCjzIFfNKKonDfAw-mdtgpF5gbHCGRMMT8H1gSxE2FeCSFUDiBKJqFDHfu72ry10pOpGogs3eKdG3_QB7aJ_EGdpsp074Xv5hlwOF1QnkAJ8klitDe_N6epmU8ylwi_wuX6ybAXnZtdRngpnawbyRahiA0khAgsHWHU-UTGhoiWZl9TbGRMkSfBUtQIljGf-8ZIhVleYVwDt9jPpK8X8h2FSxKbJLeiPxhF322WGgP8e3KpFR_lTcOzs3D1d8LazJtvZpCI-NBFtBLjQC5w5HYc5zGuWowELzBIiXgGpGK5X0sjfT-ZsW_Y17Sz2tHyIQley5GqHjk8hpZARO_6z3L-NjTTcg-C.D7tmAoTjYbp7z5ljKCnO8ziUsw5SN5EaIc51MXLBL1E&dib_tag=se&keywords=lakme+cream+makeup&nsdOptOutParam=true&qid=1737547855&sprefix=lakme+cream+mekup%2Caps%2C326&sr=8-13"><div class="boxxx4" style="background-image:url('m3.jpg') ;"></div></a>
+        
+        <a href="https://www.amazon.in/Maybelline-Poreless-Liquid-Foundation-Natural/dp/B087XG6B65/ref=sxin_16_pa_sp_search_thematic_sspa?content-id=amzn1.sym.cd33fa60-47cd-49f3-80b8-24b1f0cbef97%3Aamzn1.sym.cd33fa60-47cd-49f3-80b8-24b1f0cbef97&crid=GEFLIRZS1HWY&cv_ct_cx=mekup&keywords=mekup&pd_rd_i=B087XG6B65&pd_rd_r=4d178453-cf8a-41a6-8af4-cd22090b7182&pd_rd_w=lcfwm&pd_rd_wg=NlsxC&pf_rd_p=cd33fa60-47cd-49f3-80b8-24b1f0cbef97&pf_rd_r=F29FXRS6VT2Q4FYKVVCM&qid=1737547997&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=mekup%2Caps%2C332&sr=1-4-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&psc=1"><div class="boxxx5" style="background-image:url('m4.jpg') ;"></div></a>
+        
+       
+
+    </div><a class="link-link" href="https://www.amazon.com/s?k=mekup&crid=3L9BK99RNMKW5&sprefix=mekup%2Caps%2C758&ref=nb_sb_noss_1">Explore more</a>
+
+    <div class="mahol2">
+        
+    </div>
+
+
+    <div class="shop-sectionn">
+    <div class="box1 bbox">
+        <div class="box-content1">
+            <h2>Gamer Ton</h2>
+            <a href="https://www.amazon.com/b/?_encoding=UTF8&node=121739139011&pd_rd_w=u5f8w&content-id=amzn1.sym.c45d7fba-a5c7-4143-9828-71766e9ff443&pf_rd_p=c45d7fba-a5c7-4143-9828-71766e9ff443&pf_rd_r=XKPGYZ61833RE5XN3H86&pd_rd_wg=S9Bdc&pd_rd_r=d4b64f3f-e49b-4f6e-a797-6cc0168682e1&ref_=pd_hp_d_btf_unk"><div class="box-iimg" style="background-image: url('gamer1.jpg');"></div></a>     
+         </div>
+        <a class="link-link" href="https://www.amazon.com/b/?_encoding=UTF8&node=121739139011&pd_rd_w=u5f8w&content-id=amzn1.sym.c45d7fba-a5c7-4143-9828-71766e9ff443&pf_rd_p=c45d7fba-a5c7-4143-9828-71766e9ff443&pf_rd_r=XKPGYZ61833RE5XN3H86&pd_rd_wg=S9Bdc&pd_rd_r=d4b64f3f-e49b-4f6e-a797-6cc0168682e1&ref_=pd_hp_d_btf_unk">See more</a></div>
+    
+    <div class="box2 bbox">
+        <div class="box-content1">
+        <h2>Broon Rid's</h2>
+        <a href="https://www.amazon.com/YOSUDA-Indoor-Cycling-Bike-Stationary/dp/B0BVHN3D72/ref=sr_1_4?crid=3B15RTKID4VAK&dib=eyJ2IjoiMSJ9.PAEnYozVbwnHAfGEzxRyN6lyqjpNXJAkwmzAI1ecxXbRwGH1wmwU82RcqHBqI4nYKjpVulxAFFc_sOsnH5LB3c5y8vLsutxEf-j5YXcFcscdr-28Z00fAMZW5Znr2LBnrsaXiqykRXat39SIoEbwN_SCobJhMZS1t3IQkrrGlTmB0bv6_mxwi0Q8PxA0YphjcSt0aIV6jZzYwaLta4K52200zK2VSQ1pPLxOFUwn_wE.Vda1kGw2RbRWTQEMNWcjxdh9svwG-YxTVqsQQysP8u0&dib_tag=se&keywords=gym%2Bcycling&qid=1737407573&sprefix=gym%2Bcyc%2Caps%2C820&sr=8-4&th=1"><div class="box-imgg" style="background-image: url('cycling.jpg');"></div></a>
+        <a class="link-link" href="https://www.amazon.com/YOSUDA-Indoor-Cycling-Bike-Stationary/dp/B0BVHN3D72/ref=sr_1_4?crid=3B15RTKID4VAK&dib=eyJ2IjoiMSJ9.PAEnYozVbwnHAfGEzxRyN6lyqjpNXJAkwmzAI1ecxXbRwGH1wmwU82RcqHBqI4nYKjpVulxAFFc_sOsnH5LB3c5y8vLsutxEf-j5YXcFcscdr-28Z00fAMZW5Znr2LBnrsaXiqykRXat39SIoEbwN_SCobJhMZS1t3IQkrrGlTmB0bv6_mxwi0Q8PxA0YphjcSt0aIV6jZzYwaLta4K52200zK2VSQ1pPLxOFUwn_wE.Vda1kGw2RbRWTQEMNWcjxdh9svwG-YxTVqsQQysP8u0&dib_tag=se&keywords=gym%2Bcycling&qid=1737407573&sprefix=gym%2Bcyc%2Caps%2C820&sr=8-4&th=1">See more</a></div>
+</div>
+    <div class="box3 bbox">
+        <div class="box-content1">
+            <h2>Hp Printer</h2>
+            <a href="https://www.amazon.com/HP-OfficeJet-Printer-Thermal-Inkjet/dp/B08XW7LT9P/ref=sr_1_4?crid=2DEBUXZKLSKTQ&dib=eyJ2IjoiMSJ9.8QdShK73EkxK7tsv-sh2WS4NsUtCl9wJcokeXuDzo9RcfAdtCPy0FqYGJp43ZzNQgoll1C_xoFhugj0JwalwrhUCJ8sUZF0_B-cH_sbN9EkgKWJz5-sr5GWY2LPcMR158fi8bCP5yxQKMQKQ-7YEhJagFsxn87cp9_RGoMjeQ1FEGP4ftFwv3koFUNCuRHyUhXgyhUoOwFGfB_8v0ky4c5n3s_L9X6nIG8Y6FIOhJaY.8thWOflAL3noRktowowjGouFpq9OSFE8TTYpFdOqW0U&dib_tag=se&keywords=hp%2Bcolor%2Bprinter&qid=1737407640&sprefix=hp%2Bcolor%2Bpr%2Caps%2C617&sr=8-4&th=1"><div class="box-imggg" style="background-image: url('color printer.jpg');"></div></a>
+            <a class="link-link" href="https://www.amazon.com/HP-OfficeJet-Printer-Thermal-Inkjet/dp/B08XW7LT9P/ref=sr_1_4?crid=2DEBUXZKLSKTQ&dib=eyJ2IjoiMSJ9.8QdShK73EkxK7tsv-sh2WS4NsUtCl9wJcokeXuDzo9RcfAdtCPy0FqYGJp43ZzNQgoll1C_xoFhugj0JwalwrhUCJ8sUZF0_B-cH_sbN9EkgKWJz5-sr5GWY2LPcMR158fi8bCP5yxQKMQKQ-7YEhJagFsxn87cp9_RGoMjeQ1FEGP4ftFwv3koFUNCuRHyUhXgyhUoOwFGfB_8v0ky4c5n3s_L9X6nIG8Y6FIOhJaY.8thWOflAL3noRktowowjGouFpq9OSFE8TTYpFdOqW0U&dib_tag=se&keywords=hp%2Bcolor%2Bprinter&qid=1737407640&sprefix=hp%2Bcolor%2Bpr%2Caps%2C617&sr=8-4&th=1">See more</a></div>
+    
+    </div>
+    <div class="box4 bbox">
+        <div class="box-content1">
+            <h2>Lakme door's</h2>
+            <a href="https://www.amazon.in/Lakme-Primer-Powder-Foundation-Compact/dp/B0744RQRG8/ref=sr_1_16?crid=1TNG25OTJQAUP&dib=eyJ2IjoiMSJ9.9RAbHd_MJx20k-TA_6mm0xDT-BL5nJdlexPYvfW7w7HnPF7OSu-MyTcQk9woWucvg1BpoJMMaDBkyb3sto8sbs8yskp9wN-irrY5iovbhhePZ1ph-ni-Qz9Nnb3Gb1snCaX8NYr8HtF-zCvvXOpNGuwygtqf13eZBDWCur6Hz38NQXoyaudBymp7mOSjgFXZrCe5FRsBIfbmwJ0DgBAY6MJKEIi5TQ5iiK7IrZbazlyhXxxS9YyC1lcVieG1MfRakb1oPtYkiDv77qdXITbbxOgorop05ym28jiRSfKnMCYCSvv8X7qyQHIfZ2tGchcLB4A4eY-nHNs-KDp3Cjx-lq1pw57yIZuvnge5NdNccZGee2qkuzFhgkFNij6PJptrQLCTz3tM8r7SZocjqg_DPTCjFsz9LxzMfd1IDs5a078qzswX03jY0T1xVBHoBUzp.AwXc9kwO4RruBBONtDkWuc3d2N_gStQZN8fFzk3xecA&dib_tag=se&keywords=lakme+makeup&nsdOptOutParam=true&qid=1737407734&sprefix=lakme+ma%2Caps%2C413&sr=8-16"><div class="box-imgggg" style="background-image: url('m3.jpg');"></div></a>
+            <a class="link-link" href="https://www.amazon.in/Lakme-Primer-Powder-Foundation-Compact/dp/B0744RQRG8/ref=sr_1_16?crid=1TNG25OTJQAUP&dib=eyJ2IjoiMSJ9.9RAbHd_MJx20k-TA_6mm0xDT-BL5nJdlexPYvfW7w7HnPF7OSu-MyTcQk9woWucvg1BpoJMMaDBkyb3sto8sbs8yskp9wN-irrY5iovbhhePZ1ph-ni-Qz9Nnb3Gb1snCaX8NYr8HtF-zCvvXOpNGuwygtqf13eZBDWCur6Hz38NQXoyaudBymp7mOSjgFXZrCe5FRsBIfbmwJ0DgBAY6MJKEIi5TQ5iiK7IrZbazlyhXxxS9YyC1lcVieG1MfRakb1oPtYkiDv77qdXITbbxOgorop05ym28jiRSfKnMCYCSvv8X7qyQHIfZ2tGchcLB4A4eY-nHNs-KDp3Cjx-lq1pw57yIZuvnge5NdNccZGee2qkuzFhgkFNij6PJptrQLCTz3tM8r7SZocjqg_DPTCjFsz9LxzMfd1IDs5a078qzswX03jY0T1xVBHoBUzp.AwXc9kwO4RruBBONtDkWuc3d2N_gStQZN8fFzk3xecA&dib_tag=se&keywords=lakme+makeup&nsdOptOutParam=true&qid=1737407734&sprefix=lakme+ma%2Caps%2C413&sr=8-16">See more</a></div></div>  
+        </div>
+
+
+        <div class="mahol2">
+            
+        </div>
+
+        <div class="mahol">
+            
+        </div>
+
+
+        <div class="boxxxx-xxxx">
+            <div class="boxxx-mm"><h2>Native Book's</h2>
+            </div>
+        </div>
+
+
+        <div class="boxxxx">
+            <a href="https://www.amazon.in/Metamorphosis-Franz-Kafka-Premium-Paperback/dp/9358836415/ref=sr_1_5?crid=3HNY9LDU3FL8R&dib=eyJ2IjoiMSJ9._lEbCCbzgFrFMfbgQYeniIWl1JLwjA6TuxUsJ3MaaxloJRcZRvENlraUA7NguO6zn0hWQ-Tz3qFvphQ8T-s8SiuXkLvuScBxPCkmFptI2N0T1EW-k2jamrzk4WGYhtilTaCJuTB01mB4UspURHZEQ72FnsHVl9EqX4mItHb7t-eo3T3lk5OPjt7HcP9EDq0jcwofgWAzueRCmujGDOC819SucQrIWE4Tpzur50eumqU.pdvNtdLSe8VXz3GtSAmhzhIe9KPf7Ew2aKuDUb8NFJs&dib_tag=se&keywords=metamorphosis+book&qid=1737548101&sprefix=metamorphosis+book%2Caps%2C332&sr=8-5"><div class="boxxxx1" style="background-image:url('b1.jpg');"></div></a>
+        
+            <a href="https://www.amazon.in/As-Man-Thinketh-James-Allen/dp/9386538172/ref=sr_1_1?crid=3BJQMMJSC1ZK&dib=eyJ2IjoiMSJ9.S03bSdJSe8d7z4c69vmv17vyV_wTTjW1hDP-4huokjfGjHj071QN20LucGBJIEps.BE6i8iaIyFdRoUQxPS8P4WXurBVBgFNjuLdHXmXAPAE&dib_tag=se&keywords=ask+a+men+thicketh+book+james+alan&qid=1737548198&sprefix=ask+a+men+thicketh+book+james+alan%2Caps%2C298&sr=8-1"><div class="boxxxx2" style="background-image:url('b2.jpg');"></div></a>
+                
+                <a href="https://www.amazon.in/Core-Confidence-Talent-Create-Future/dp/064835511X/ref=sr_1_8?crid=32JEOJ2BI04OK&dib=eyJ2IjoiMSJ9.wvwSmj49GGFuDUEcl0JD0jkKESwObZLAwviLEm7COn0QWcWTzi_7CbMta8s0DqtykJth1xujcWr-VZGaZNk3769hdKNWZ-asYnRJd7ynsfh6Q23sd9nt_bS_Q9kIHNBPa5NDRYOiQ90jIATL5WgSfoFq4YKsd4nl7esnYlf-VcPXffP9nBXInCwhukYBh-ZKBBjNJJM3aHAbelvUm_4EwoDBU2J7KzAaZmgR2tPa5pI.AxLXhnlPt4GQAHLFDZxs72PlvBTPxnS9muD9hpXPWDM&dib_tag=se&keywords=core+confidence+book&qid=1737548229&sprefix=core+confidence+boo%2Caps%2C314&sr=8-8"><div class="boxxxx3" style="background-image:url('b3.jpg') ;"></div></a>
+               
+                <a href="https://www.amazon.in/Culture-Map-Erin-Meyer/dp/1610392507/ref=sr_1_3?crid=1BPV8RX00X44Z&dib=eyJ2IjoiMSJ9.J_-VAP_Yq_NvT5DMtX36q85GkRhyEZEqse6FMO7PnP89Z3phDFCupP9DEDDFNBoM6Hvolu5iN0j23yMjnxfprQuBOpyOJXG1YzwkkoKmE-e6PIIhdxiXDCgUUncJqnQADpEuw_7GBcsmsICcEtWcsLJZkVJSKBmCRyyP7ChP-LdhT--EX3lD6GEpvpofQGIQWsRehJQteKJCVxR9ZzhkO8X0NtQLh9SMk-SYtEN6jQY.mXwYZNTVgZofRlTObq0H3ZNELlad3ZI6kUppFttJ2lg&dib_tag=se&keywords=the+culture+map+book&qid=1737548267&sprefix=the+culture+map+book%2Caps%2C332&sr=8-3"><div class="boxxxx4" style="background-image:url('b4.jpg') ;"></div></a>
+                
+                <a href="https://www.amazon.in/s?k=black+myth+wukong+book&crid=3MW9VZRB77UE9&sprefix=black+myth+wukong+book%2Caps%2C334&ref=nb_sb_noss_1"><div class="boxxxx5" style="background-image:url('b5.jpg') ;"></div></a>
+                
+               
+        
+            </div><a class="link-link" href="https://www.amazon.com/s?k=best+sci-+fic+books&crid=B04R9CJWOJHG&sprefix=best+sci-+fic+books+%2Caps%2C719&ref=nb_sb_noss">Read more</a>
+
+
+            <div class="flex">
+
+                <div class="double">
+                    <div class="double1" style="background-image:url('');"></div>
+                    <div class="double2" style="background-image:url('');"></div>
+                </div>
+    
+                
+                <div class="double">
+                    <div class="double3" style="background-image:url('');"></div>
+                    <div class="double4" style="background-image:url('');"></div>
+                </div>
+    
+    </div>
+
+           
+                
+
+            
+
+   
+
+            <div class="experiment" >
+               <a href="https://www.amazon.com/s?k=refrigerator+%2Bwashing+machine&crid=19CKNKAOUWPK7&sprefix=refrigerator%2Bwashing+machine%2Caps%2C1025&ref=nb_sb_noss_2">  <div class="my1" style="background-image: url('big2.jpg');"></div></a>
+                
+            </div>
+
+            
+             
+
+
+
+    <footer>
+        <div class="foot-panel1">
+            Back to Top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+               <p> Get to know Us</p>
+               <a class="link-linkk" href="/careers">Careers</a>
+               <a class="link-linkk" href="blog">Blog</a>
+               <a class="link-linkk" href="about">About amazon</a>
+               <a class="link-linkk" href="Accessibility">Accessibility</a>
+               <a class="link-linkk" href="Sustainability">Sustainability</a>
+               <a class="link-linkk" href="Press Center">Press Center</a>
+               <a class="link-linkk" href="invester">Invester Relations</a>
+               <a class="link-linkk" href="amazon devices">Amazon devices</a>
+               <a class="link-linkk" href="amazon sicences">Amazon Sciences</a>
+            </ul>
+            <ul>
+                <p> Make Money with Us</p>
+               <a class="link-linkk" href="/Sell products on Amazon">Sell products on Amazon</a>
+               <a class="link-linkk" href="Sell on Amazon Business">Sell on Amazon Business</a>
+               <a class="link-linkk" href="Sell apps on Amazon">Sell apps on Amazon</a>
+               <a class="link-linkk" href="Protect & Build Your Brand">Protect & Build Your Brand</a>
+               <a class="link-linkk" href="Become an Affiliate">Become an Affiliate</a>
+               <a class="link-linkk" href="Become a Delivery Driver">Become a Delivery Driver</a>
+               <a class="link-linkk" href="Start a Package Delivery Business">Start a Package Delivery Business</a>             
+               <a class="link-linkk" href="Host an Amazon Hub">Host an Amazon Hub</a>
+               <a class="link-linkk" href="Advertise Your Products">Advertise Your Products</a>
+               <a class="link-linkk" href="Self-Publish with Us">Self-Publish with Us</a>
+               <a class="link-linkk" href="Host an Amazon Hub">Host an Amazon Hub</a>
+               <a class="link-linkk" href="See More Make Money with Us">See More Make Money with Us</a>
+               
+             </ul>
+             <ul>
+                <p> Amazon Payment Products</p>
+               <a class="link-linkk" href="/Amazon Business Card">Amazon Business Card</a>
+               <a class="link-linkk" href="Amazon Store Card">Amazon Store Card</a>
+               <a class="link-linkk" href="Amazon Secured Card">Amazon Secured Card</a>
+               <a class="link-linkk" href="Amazon Business Card">Amazon Business Card</a>              
+               <a class="link-linkk" href="Shop with Points">Shop with Points</a>
+               <a class="link-linkk" href="Reload Your Balance">Reload Your Balance</a>
+               <a class="link-linkk" href="Amazon Currency Converter">Amazon Currency Converter</a>
+               
+             </ul>
+             <ul>
+                <p>Let Us Help You </p>
+               <a class="link-linkk" href="/Amazon and COVID-19">Amazon and COVID-19</a>
+               <a class="link-linkk" href="Your Account">Your Account</a>              
+               <a class="link-linkk" href="Your Orders">Your Orders</a>
+               <a class="link-linkk" href="Recalls and Product Safety Alerts">Recalls and Product Safety Alerts</a>
+               <a class="link-linkk" href="Shipping Rates & Policies">Shipping Rates & Policies</a>
+               <a class="link-linkk" href="Returns & Replacements">Returns & Replacements</a>
+               <a class="link-linkk" href="Manage Your Content and Devices">Manage Your Content and Devices</a>
+               <a class="link-linkk" href="Help">Help</a>
+             </ul>
+             
+        </div>
+        <div class="foot-panel3">
+            <div class="logo"></div>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of Use</a>
+                <a>Privacy Notice</a>
+                <a>Your Ads Privacy Choices </a>
+            </div>
+            <div class="copyright">
+            ...1996-2025, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
